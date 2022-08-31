@@ -311,8 +311,4 @@ while running:
             new_pos = (app.x, app.y)
             app.load_game()
 
-            if last_pos[0] == new_pos[0]:
-                axe = 'coord'
-            else:
-                axe = 'abs'
 
